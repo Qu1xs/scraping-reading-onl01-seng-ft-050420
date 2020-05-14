@@ -7,3 +7,4 @@ Nokogiri::HTML(html)
 doc = Nokogiri::HTML(html)
 
 doc.css(".headline-26OIBN").txt
+puts doc.css(".headline-26OIBN").txt.strip
